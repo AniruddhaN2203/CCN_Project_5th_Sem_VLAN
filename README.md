@@ -114,12 +114,13 @@ PC5 - ip 192.168.10.10 192.168.10.1/24
 
 ## Switching
 ### Intra VLAN Switching
-**Juu**
 - Intra VLAN switching refers to the process of forwarding network traffic between devices within the same VLAN. 
 - Switches operate at Layer 2 (Data Link layer) of the OSI model and are responsible for making forwarding decisions based on MAC (Media Access Control) addresses.
 
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/49b3d1e6-72ee-4e63-9833-fea34a004dea)
 - We turn the router off here as we need to demonstrate switching in the same VLAN.
+
+**Juu**
 - We will take PC2 which is part of VLAN 10(name - juu).
 - We ping PC5 which also part of the same VLAN and capture the packets on the trunk connection between the two switches.
 
@@ -139,4 +140,4 @@ PC5 - ip 192.168.10.10 192.168.10.1/24
 
 **Juu to Go**
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/9b4cc19e-fa39-4827-8a4e-e49c255df7dc)
-- If we try pinging PC2 or PC5 it won't work as inter VLAN switching operates on Layer 3 switches or routers
+- If we try pinging PC2 or PC5 it won't work as inter VLAN switching operates on routers or Layer 3 (Network Layer) switches
