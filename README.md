@@ -139,5 +139,41 @@ PC5 - ip 192.168.10.10 192.168.10.1/24
 - As we can see the packets are captured on the link.
 
 **Juu to Go**
+
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/9b4cc19e-fa39-4827-8a4e-e49c255df7dc)
 - If we try pinging PC2 or PC5 it won't work as inter VLAN switching operates on routers or Layer 3 (Network Layer) switches
+
+## Addressing
+### MAC Addressing:
+
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/7a93b0ff-ca2d-4aa6-9b2e-0c15a4301a97)
+- ```show mac address-table``` is the command used to see the MAC addresses that the switch has learnt about
+- In VLANs, MAC addressing is crucial for the operation of Layer 2 switches.
+- Switches use MAC addresses to forward frames within the same VLAN. The MAC address table in a switch associates MAC addresses with the corresponding switch ports, allowing the switch to make forwarding decisions based on these addresses.
+
+### IP Addressing:
+- We can refer to the section of router configuration and PC configuration for this.
+- VLANs are often associated with IP subnets. Devices within the same VLAN typically share the same IP subnet, and devices in different VLANs often belong to different IP subnets.
+- IP addressing is essential for Layer 3 devices like routers that route traffic between different VLANs.
+- Routers use IP addresses to make routing decisions and facilitate communication between devices in different VLANs. Each VLAN may be associated with a different IP subnet, allowing for logical network segmentation.
+
+### VLAN Tagging
+- Again for this section we can refer to the Switch and Router configuration
+- We can analyze the following command ```encapsulation dot1q 10```.
+- Encapsulation : Encapsulation is crucial for tagging frames with VLAN information so that switches can understand which VLAN a frame belongs to.
+- dot1q : The dot1q in the command refers to IEEE 802.1Q, which is the industry standard for VLAN tagging. IEEE 802.1Q is a protocol that adds a 4-byte tag to Ethernet frames, providing VLAN identification information. The tag includes a VLAN ID, allowing switches to understand which VLAN a frame belongs to and, consequently, how to handle and forward the frame within the VLAN-aware network.
+- 10 - This is the VLAN tag/ID that is associated with VLAN 10(name - juu).
+
+## Filtering
+- Filtering refers to the process of controlling and managing the flow of traffic between different VLANs.
+- Filtering mechanisms are used to determine which types of traffic are allowed or denied between VLANs, providing a level of security and control over communication within a network.
+
+**Using ACL(Access Control List)**
+
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/a6e639e4-cae0-4d98-807d-fd5dbf5f6dc7)
+- We need to type the following commands in the router.
+- This will block access from VLAN 5(go) to VLAN 10(juu).
+
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/aaa1163c-739e-447f-8623-d8dc683dc315)
+- As we can see inter VLAN routing is not possible but intra VLAN routing is possible.
+
