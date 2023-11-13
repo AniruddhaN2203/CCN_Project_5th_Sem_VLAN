@@ -22,7 +22,7 @@
 #exit(two times)
 #wr me
 ```
-- Repeat the above steps for the second layer 2 switch.
+**Repeat the above steps for the second layer 2 switch.**
 
 - Next type the following commands to configure the linking for the first layer 2 switch
 ```
@@ -96,4 +96,13 @@
 #wr me
 ```
 
+- Now to configure the PCs
+- Type the following commands mentioned next to the PC name for each.
+```
+PC1 - ip 192.168.5.5 192.168.5.1/24
+PC2 - ip 192.168.10.10 192.168.10.1/24
+PC3 - ip 192.168.5.10 192.168.5.1/24
+PC4 - ip 192.168.5.15 192.168.5.1/24
+PC5 - ip 192.168.10.10 192.168.10.1/24 
+```
 
