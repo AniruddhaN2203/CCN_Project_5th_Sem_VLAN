@@ -177,3 +177,6 @@ PC5 - ip 192.168.10.10 192.168.10.1/24
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/aaa1163c-739e-447f-8623-d8dc683dc315)
 - As we can see inter VLAN routing is not possible but intra VLAN routing is possible.
 
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/aea5f9ca-03ad-4332-aa76-52dc6a3fa4ec)
+- To give access back to the VLAN type the above commands.
+- This will permit access from VLAN 5(go) to VLAN 10(juu).
