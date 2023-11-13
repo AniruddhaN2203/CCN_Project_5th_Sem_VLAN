@@ -76,6 +76,10 @@
 #wr me
 ```
 
+**Trunk and Access Mode Connections**
+- Trunk connections are used to interconnect switches and routers and carry traffic for multiple VLANs. They allow the passage of VLAN-tagged frames between devices, helping to maintain VLAN segregation across the network.
+- Access mode connections are used for devices that are members of a specific VLAN. Traffic entering and leaving an access mode port is assumed to be part of the VLAN configured on that port.
+
 - Now to configure the router R!
 ```
 #configure terminal
@@ -106,3 +110,4 @@ PC4 - ip 192.168.5.15 192.168.5.1/24
 PC5 - ip 192.168.10.10 192.168.10.1/24 
 ```
 
+## Switching
