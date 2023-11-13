@@ -180,3 +180,8 @@ PC5 - ip 192.168.10.10 192.168.10.1/24
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/aea5f9ca-03ad-4332-aa76-52dc6a3fa4ec)
 - To give access back to the VLAN type the above commands.
 - This will permit access from VLAN 5(go) to VLAN 10(juu).
+
+
+## Acknowledgments
+- Website - https://www.sysnettechsolutions.com/en/configure-vlan-in-layer-2-switch/
+- Download Layer 2 Switch - https://www.sysnettechsolutions.com/en/download-vios-l2-image-for-gns3/
