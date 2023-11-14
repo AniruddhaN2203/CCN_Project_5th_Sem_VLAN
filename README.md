@@ -129,7 +129,7 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 - As we can see the packets are captured on the link.
 
 **Go**
-- We will take PC2 which is part of VLAN 5(name - go).
+- We will take PC1 which is part of VLAN 5(name - go).
 - We ping PC4 which also part of the same VLAN and capture the packets on the trunk connection between the two switches.
 
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/7b80c6e9-d1d0-4925-993f-ca214b84b062)
