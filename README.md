@@ -170,6 +170,7 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 **Using ACL(Access Control List)**
 
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/a6e639e4-cae0-4d98-807d-fd5dbf5f6dc7)
+- ```$ -> access-list```
 - We need to type the following commands in the router.
 - This will block access from VLAN 5(go) to VLAN 10(juu).
 
