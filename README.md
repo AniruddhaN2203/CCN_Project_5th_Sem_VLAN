@@ -89,7 +89,6 @@
 #exit
 #interface fastethernet 0/0.5
 #encapsulation dot1q 5
-#ip address 19
 #ip address 192.168.5.1 255.255.255.0
 #no shutdown
 #exit
