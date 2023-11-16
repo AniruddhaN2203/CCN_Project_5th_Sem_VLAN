@@ -175,6 +175,11 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 - Routers use IP addresses to make routing decisions and facilitate communication between devices in different VLANs. Each VLAN may be associated with a different IP subnet, allowing for logical network segmentation.
 
 ### VLAN Tagging:
+- VLAN tagging is a method through which more than one VLAN is handled on a port.
+- VLAN tagging is performed by the putting the VLAN ID into a header to identify which
+network it is present in. This helps in determining which interface or
+broadcast area the information packet needs to be sent to in order to receive
+the right information.
 - Again for this section we can refer to the Switch and Router configuration
 - We can analyze the following command ```encapsulation dot1q 10```.
 - Encapsulation : Encapsulation is crucial for tagging frames with VLAN information so that switches can understand which VLAN a frame belongs to.
