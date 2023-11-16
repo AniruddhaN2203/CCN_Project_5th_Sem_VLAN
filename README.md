@@ -208,3 +208,4 @@ the right information.
 ## Acknowledgments
 - Website - https://www.sysnettechsolutions.com/en/configure-vlan-in-layer-2-switch/
 - Download Layer 2 Switch - https://www.sysnettechsolutions.com/en/download-vios-l2-image-for-gns3/
+- https://www.techopedia.com/definition/32105/vlan-tagging
