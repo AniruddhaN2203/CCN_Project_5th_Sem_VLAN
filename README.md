@@ -142,6 +142,22 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/9b4cc19e-fa39-4827-8a4e-e49c255df7dc)
 - If we try pinging PC2 or PC5 it won't work as inter VLAN switching operates on routers or Layer 3 (Network Layer) switches
 
+### Inter VLAN Switching
+
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/aa961b38-0439-4a4b-882e-b0e77c157870)
+- Inter-VLAN switching refers to the process of forwarding network traffic between different VLANs.
+- When communication needs to occur between devices in different VLANs, a layer 3 device, typically a router or layer 3 switch, is required to perform inter-VLAN routing.
+- We capture the packets on the trunk connection connected to the router as that is what facilitates inter vlan switching
+
+**Go to Juu**
+
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/af943d34-4180-44c9-8a68-86bef5b12dc7)
+
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/7cbe4c00-9b47-4b04-a4b3-50a77ef59d42)
+
+- We are pinging PC5 from PC1.
+- As we can see the packets are captured on the trunk connection present on the router
+
 ## Addressing
 ### MAC Addressing:
 
