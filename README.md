@@ -174,7 +174,7 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 - IP addressing is essential for Layer 3 devices like routers that route traffic between different VLANs.
 - Routers use IP addresses to make routing decisions and facilitate communication between devices in different VLANs. Each VLAN may be associated with a different IP subnet, allowing for logical network segmentation.
 
-### VLAN Tagging
+### VLAN Tagging:
 - Again for this section we can refer to the Switch and Router configuration
 - We can analyze the following command ```encapsulation dot1q 10```.
 - Encapsulation : Encapsulation is crucial for tagging frames with VLAN information so that switches can understand which VLAN a frame belongs to.
