@@ -163,7 +163,7 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 ## Addressing
 ### MAC Addressing:
 
-![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/7a93b0ff-ca2d-4aa6-9b2e-0c15a4301a97)
+![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/4167cfce-2582-48bb-a51f-331d97cda64a)
 - ```show mac address-table``` is the command used to see the MAC addresses that the switch has learnt about
 - In VLANs, MAC addressing is crucial for the operation of Layer 2 switches.
 - Switches use MAC addresses to forward frames within the same VLAN. The MAC address table in a switch associates MAC addresses with the corresponding switch ports, allowing the switch to make forwarding decisions based on these addresses.
