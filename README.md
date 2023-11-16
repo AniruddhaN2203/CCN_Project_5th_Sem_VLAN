@@ -147,6 +147,7 @@ PC5 - ip 192.168.10.15 192.168.10.1/24
 ![image](https://github.com/AniruddhaN2203/CCN_Project_5th_Sem_VLAN/assets/142299140/aa961b38-0439-4a4b-882e-b0e77c157870)
 - Inter-VLAN switching refers to the process of forwarding network traffic between different VLANs.
 - When communication needs to occur between devices in different VLANs, a layer 3 device, typically a router or layer 3 switch, is required to perform inter-VLAN routing.
+- For traffic that requires routing between different VLANs, the router uses the destination IP address to make forwarding decisions. The switch looks at the destination IP address of the packet and determines the appropriate next-hop or outgoing interface based on its routing table.
 - We capture the packets on the trunk connection connected to the router as that is what facilitates inter vlan switching
 
 **Go to Juu**
